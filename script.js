@@ -31,7 +31,7 @@ function init() {
 		var x = Number(row_data[10]);
 		var y = Number(row_data[9]);
 		var text = row_data[0];
-        var size = Number(row_data[7]) * 10;
+        var size = Number(row_data[7]) * 10 + 10;
         
         var placemark = new ymaps.Placemark([x, y], {
 			content: text,
