@@ -59,7 +59,7 @@ function init() {
 
     var uran_button = new ymaps.control.Button('Уран');
     var island_shpat_button = new ymaps.control.Button('Исландский шпат');
-    var fluorit = new ymaps.control.Button('Флюорит');
+    var fluorit_button = new ymaps.control.Button('Флюорит');
     var dolomit_button = new ymaps.control.Button('Доломиты');
 
 
