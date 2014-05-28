@@ -65,7 +65,7 @@ function init() {
 
     var typeControls = new ymaps.control.Group({
             items: [uran_button, island_shpat_button, fluorit_button,  dolomit_button]
-        }, {al
+        }, {
             position: { left: 40 }
     });
 
